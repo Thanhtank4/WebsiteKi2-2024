@@ -1,0 +1,308 @@
+/* Bootstrap Styles */
+@import url('http://www.sugia.vn/themes/modex/css/bootstrap.min.css');
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #DECBC4 0%, #3E5151);
+
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    background-image: linear-gradient(to right, #DECBC4 0%, #3E5151);
+
+}
+
+.container-sugia {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo-banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar Styles */
+.navbar-mobile {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-header .box-icon-nav button.navbar-toggle {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-toggle .fa-bars {
+    color: #000;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.collapse.navbar-collapse {
+    background-color: #fff;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.navbar-nav>li>a {
+    color: #000;
+    padding: 15px 20px;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: #f8f8f8;
+}
+
+.menu-search {
+    margin-top: 12px;
+}
+
+.menu-search .txtsearch {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.menu-search .btn-primary {
+    background-color: #510700;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.main-left {
+    flex: 1;
+    padding-right: 15px;
+
+}
+
+.main-right {
+    flex: 1;
+    padding-left: 15px;
+
+}
+
+.wrap-home {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box-news {
+    margin-bottom: 20px;
+}
+
+.box-content-news {
+    padding: 20px;
+}
+
+.box-content-news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#pager {
+    margin-top: 20px;
+}
+
+#pager ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pager ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#pager ul li a {
+    padding: 5px 10px;
+    background-color: #ddd;
+    text-decoration: none;
+    color: #000;
+}
+
+#pager ul li a.active {
+    background-color: #510700;
+    color: #fff;
+}
+
+/* Right Sidebar Styles */
+.wrap-right {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box-right {
+    margin-bottom: 20px;
+}
+
+.box-right.mb-fix {
+    margin-bottom: 40px;
+}
+
+.title-box-right {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.most-read-news .item-news {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.most-read-news .item-news .pic img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.most-read-news .item-news .title-item-news a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.custom-btn {
+    width: 120px;
+    height: 30px;
+    color: #101010;
+    border-radius: 5px;
+    padding: 10px 23px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-1 {
+    background: rgb(77, 77, 77);
+    background: linear-gradient(0deg, rgb(86, 98, 81) 0%, rgb(251, 245, 239) 100%);
+    border: none;
+}
+
+.btn-1:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+.tabs {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  padding: 0.75rem;
+  border-radius: 99px;
+}
+
+.tabs * {
+  z-index: 2;
+}
+
+.container input[type="radio"] {
+  display: none;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 50px;
+  font-size: .8rem;
+  color: black;
+  font-weight: 500;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: .8rem;
+  height: .8rem;
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  font-size: 10px;
+  margin-left: 0.75rem;
+  border-radius: 50%;
+  margin: 0px;
+  background-color: #e6eef9;
+  transition: 0.15s ease-in;
+}
+
+.container input[type="radio"]:checked + label {
+  color: #185ee0;
+}
+
+.container input[type="radio"]:checked + label > .notification {
+  background-color: #185ee0;
+  color: #fff;
+  margin: 0px;
+}
+
+.container input[id="radio-1"]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+.container input[id="radio-2"]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
+.container input[id="radio-3"]:checked ~ .glider {
+  transform: translateX(200%);
+}
+
+.glider {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 50px;
+  background-color: #e6eef9;
+  z-index: 1;
+  border-radius: 99px;
+  transition: 0.25s ease-out;
+}
+
+@media (max-width: 700px) {
+ 
+  .tabs {
+    transform: scale(0.6);
+  }
+}

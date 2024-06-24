@@ -1,0 +1,193 @@
+.container-weapon {
+  width: 100%;
+  height: 800px;
+}
+
+.wrap-home1 {
+  width: 1170px;
+  height: 800px;
+  border: 1px solid black;
+
+}
+
+.card1 {
+  width: 35%;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  float: left;
+
+}
+
+.card2 p {
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+.card2 {
+  width: 65%;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  float: left;
+
+}
+
+.card3 {
+  width: 100%;
+  height: 50px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  float: left;
+
+}
+
+.wrap-home1 .card1 img {
+
+  width: 60px;
+  height: 50px;
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  /* Màu nền của khu vực marquee */
+  position: relative;
+  white-space: nowrap;
+}
+
+.marquee {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+  white-space: nowrap;
+}
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  
+}
+
+.marquee {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+
+  
+}
+
+.marquee div {
+  display: inline-block;
+  margin-right: 30px; /* Đảm bảo khoảng cách đều giữa các hình ảnh */
+}
+
+.marquee img {
+  width: 200px; /* Điều chỉnh kích thước ảnh theo nhu cầu của bạn */
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-delay: 0ms; 
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  /* Màu nền của khu vực marquee */
+  position: relative;
+  white-space: nowrap;
+}
+
+.marquee {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: 10px;
+}
+footer {
+  background-color: #141111;
+  color: #dddcdc;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex-basis: 30%;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .card {
+      flex: 1 1 calc(50% - 15px);
+  }
+}
+@media (max-width: 576px) {
+  .card {
+      flex: 1 1 100%;
+  }
+  .navbar-header {
+      display: flex;
+      justify-content: space-between;
+  }
+}
